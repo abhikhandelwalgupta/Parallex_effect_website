@@ -8,7 +8,8 @@
 }
 
 .wrapper {
-    height: 100vh;;
+    height: 100vh;
+    ;
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 10px;
@@ -27,15 +28,17 @@
 .bg3 {
     background-image: url(./sport-3.jpg);
 }
+
 .background {
     transform: translateZ(-20px) scale(4);
 }
 
 .foreground {
-    transform:  translateZ(-10px) scale(2);
+    transform: translateZ(-10px) scale(2);
 }
 
-.background, .foreground {
+.background,
+.foreground {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -67,9 +70,10 @@ h2 {
 
 .text {
     font-size: 1.5rem;
-    margin:  5rem 0;
+    margin: 5rem 0;
     padding: 0 10rem;
 }
+
 .bg1 {
     background-image: url('./sport-1.jpg');
 }
@@ -77,6 +81,7 @@ h2 {
 .bg2 {
     background-image: url(./sport-2.jpg);
 }
+
 .bg {
     width: 100%;
     min-height: 500px;
@@ -100,4 +105,61 @@ h2 {
     color: black;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+
+@media screen and (max-width:767px) {
+    h1 {
+
+        font-size: 3rem;
+        letter-spacing: 2px;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        padding: 0 5rem;
+    }
+
+    .desc {
+        padding: 0.5rem 1.5rem;
+    }
+    .desc p {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        margin: 2rem 0;
+        padding: 0 2rem;
+    }
+       
+}
+
+@media screen and (max-width:960px) {
+    h1 {
+
+        font-size: 5rem;
+        letter-spacing: 4px;
+
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding: 0 5rem;
+    }
+
+    .desc {
+        padding: 0.5rem 1.5rem;
+    }
+    .desc p {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+        margin: 3rem 0;
+        padding: 0 4rem;
+    }
+       
 }

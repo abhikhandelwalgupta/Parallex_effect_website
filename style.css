@@ -101,7 +101,7 @@ h2 {
 }
 
 .desc p {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     color: black;
     font-weight: 600;
     text-transform: uppercase;
@@ -193,14 +193,15 @@ h2 {
         padding: 0.5rem 2.5rem;
     }
     .desc p {
-        font-size: 3.5rem;
+    font-size: 3.5rem;
     }
+
 
     .text {
     font-size: 1.5rem;
     margin: 5rem 0;
     padding: 0 10rem;
-}
+    }
 
        
 }
